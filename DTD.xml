@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE items
+[
+<!ELEMENT items (produts)>
+<!ELEMENT produts (name,price,matrial,address,contact)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (perkg,twokg,threekg)>
+<!ELEMENT perkg (#PCDATA)>
+<!ELEMENT twokg (#PCDATA)>
+<!ELEMENT threekg (#PCDATA)>
+<!ELEMENT matrial (#PCDATA)>
+<!ELEMENT address (village,area,shopnumber)>
+<!ELEMENT village (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT shopnumber (#PCDATA)>
+<!ELEMENT contact (email,facebook,contactnumber)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT facebook (#PCDATA)>
+<!ELEMENT contactnumber (#PCDATA)>
+]>
+<items>
+<produts>
+    <name>tonton mosi k lado</name>
+    <price>
+    <perkg>250$</perkg>
+    <twokg>500$</twokg>
+    <threekg>750$</threekg>
+    </price>
+    <matrial>basan</matrial>
+    <address>
+        <village>dholak por</village>
+        <area>chotki k ghr</area>
+        <shopnumber>420</shopnumber>
+    </address>
+    <contact>
+        <email>dholakpor420@gmail.com</email>
+        <facebook>dholak por</facebook>
+        <contactnumber>+91525465987585</contactnumber>
+    </contact>
+</produts>
+</items>
