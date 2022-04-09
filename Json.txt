@@ -1,0 +1,13 @@
+{
+  "Resturant Name" : "Pizza Hut",
+  "Branches" : ["Karachi","Islamabad","Peshawar","hyderabad","Sakkar"],
+  "Total Branches" : 5,
+  "Menu Items" : ["fajita","tikka","chicken tikka","mughalai","peproni"],
+  "chicken tikka" : {
+    "size" : ["regular","large"],
+    "price" : {
+      "regular": 700,
+      "large" : 999
+    }
+  }
+}
