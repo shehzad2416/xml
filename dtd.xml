@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Bill[
+<!ELEMENT Bill (CustomerName,PhoneNumber,bills,tip,mode,orderitems) >
+<!ELEMENT CustomerName (#PCDATA)>
+<!ELEMENT PhoneNumber (#PCDATA)>
+<!ELEMENT bills (#PCDATA)>
+<!ELEMENT tip (#PCDATA)>
+<!ELEMENT mode (#PCDATA)>
+<!ELEMENT orderitems (item1,item2,item3,RotiInfo,Dessert,Drinks)>
+<!ELEMENT item1 (#PCDATA)>
+<!ELEMENT item2 (#PCDATA)>
+<!ELEMENT item3 (#PCDATA)>
+<!ELEMENT RotiInfo (it1,quantity,it2,parathaquantity)>
+<!ELEMENT it1 (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT it2 (#PCDATA)>
+<!ELEMENT parathaquantity (#PCDATA)>
+<!ELEMENT Dessert (d1,d2,d3)>
+<!ELEMENT d1 (#PCDATA)>
+<!ELEMENT d2 (#PCDATA)>
+<!ELEMENT d3 (#PCDATA)>
+<!ELEMENT Drinks (drink1,drink2,drink3,drink4,drink5)>
+<!ELEMENT drink1 (#PCDATA)>
+<!ELEMENT drink2 (#PCDATA)>
+<!ELEMENT drink3 (#PCDATA)>
+<!ELEMENT drink4 (#PCDATA)>
+<!ELEMENT drink5 (#PCDATA)>
+]>
+
+<Bill>
+    <CustomerName>Shehzad Ahmed</CustomerName>
+    <PhoneNumber>0900-78601</PhoneNumber>
+    <bills>Rs 6573</bills>
+    <tip>Rs. 250</tip>
+    <mode>Diamond Card</mode>
+    <orderitems>
+        <item1>4 Zinger</item1>
+        <item2>2 Broast</item2>
+        <item3>2 Makhni Handi</item3>
+        <RotiInfo>
+            <it1>Roti</it1>
+            <quantity>15</quantity>
+            <it2>Paratha</it2>
+            <parathaquantity>10</parathaquantity>
+        </RotiInfo>
+        <Dessert>
+            <d1>Choclate Lava Cake</d1>
+            <d2>Doodh Dulari</d2>
+            <d3>Ice Cream</d3>
+        </Dessert>
+        <Drinks>
+            <drink1>Pepsi</drink1>
+            <drink2>Fanta</drink2>
+            <drink3>Dew</drink3>
+            <drink4>sting</drink4>
+            <drink5>Choclate Oreo Shake</drink5>
+        </Drinks>
+    </orderitems>
+</Bill>
