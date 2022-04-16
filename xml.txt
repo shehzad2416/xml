@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu [
+    <!ELEMENT menu (restaurantname,Address,Fastfood,Sweet,colddrinks)>
+    <!ELEMENT restaurantname (#PCDATA)>
+    <!ELEMENT Address (#PCDATA)>
+    <!ELEMENT Fastfood (item1,Price,item2,Price,item3,Price,item4,Price,item5,Price)>
+    <!ELEMENT item1 (#PCDATA)>
+    <!ELEMENT item2 (#PCDATA)>
+    <!ELEMENT item3 (#PCDATA)>
+    <!ELEMENT item4 (#PCDATA)>
+    <!ELEMENT item5 (#PCDATA)>
+    <!ELEMENT Price (#PCDATA)>
+    <!ELEMENT Sweet (d1,d2,d3)>
+    <!ELEMENT d1 (#PCDATA)>
+    <!ELEMENT d2 (#PCDATA)>
+    <!ELEMENT d3 (#PCDATA)>
+    <!ELEMENT colddrinks (c1,c2,c3,c4,c5)>
+    <!ELEMENT c1 (#PCDATA)>
+    <!ELEMENT c2 (#PCDATA)>
+    <!ELEMENT c3 (#PCDATA)>
+    <!ELEMENT c4 (#PCDATA)>
+    <!ELEMENT c5 (#PCDATA)>
+]>
+<menu>
+    <restaurantname> Shah</restaurantname>
+    <Address>liaquatabad Karachi</Address>
+    <Fastfood>
+        <item1> Tandoori Chaap</item1>
+        <Price> 260</Price>
+        <item2> Paneer Tikka</item2>
+        <Price> 270 </Price>
+        <item3> Malai Tikka</item3>
+        <Price> 285 </Price>
+        <item4> paneer Tikka Roll </item4>
+        <Price> 180 </Price>
+        <item5> Soya Chaap Roll</item5>
+        <Price> 160 </Price>
+    </Fastfood>
+    <Sweet>
+        <d1>Choclate Lava Cake</d1>
+        <d2>Cake Slice</d2>
+        <d3>Choclate Brownie</d3>
+    </Sweet>
+    <colddrinks>
+        <c1>Sting</c1>
+        <c2>7up</c2>
+        <c3>Pepsi</c3>
+        <c4>Coca</c4>
+        <c5>Sprite</c5>
+    </colddrinks>
+</menu> 
